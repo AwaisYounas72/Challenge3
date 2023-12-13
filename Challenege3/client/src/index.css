@@ -1,0 +1,7 @@
+/* Remove the existing content and add Tailwind CSS styles */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+ 
