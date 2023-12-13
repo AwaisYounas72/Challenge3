@@ -8,7 +8,7 @@ const App = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await axios.get('http://localhost:3000/api/random');
+      const response = await axios.get('challenge3-nine.vercel.app/api/random');
       // setNumber(response.data.randomNumber);
       setRandomNumber(response.data.randomNumber);
     };
@@ -38,7 +38,7 @@ const decreaseNum = num => {
   }, [randomNumber]);
 
   const fetchData = async () => {
-    const response = await axios.get('http://localhost:3000/api/random');
+    const response = await axios.get('challenge3-nine.vercel.app/api/random');
     // setNumber(response.data.randomNumber);
     setRandomNumber(response.data.randomNumber);
   
